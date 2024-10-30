@@ -1,0 +1,54 @@
+#big_image_background {
+    top: 0pt; left: 0pt;
+    position: fixed; height: 100%; width: 100%;
+    background: url(/wp-content/plugins/big-image-browser/pixel.png) repeat; display: none
+}
+
+#big_image {
+    z-index:100;
+}
+
+#big_image_container {
+    margin: auto;
+    display: table;
+
+}
+
+.big_img_navigate_btn, .left, .right, .esc {
+    width: 24px;
+    height: 24px;
+    border-bottom-color: #000;
+    border-style: dashed;
+    border-width: 1px;
+    display: block;
+    position: absolute;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 101;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -khtml-border-radius: 6px;
+}
+
+.left {
+    left: 0px;
+    bottom: 0px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+}
+
+.right {
+    right: 0px;
+    bottom: 0px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+}
+
+.esc {
+    left: 0px;
+    top: 0px;
+    padding-left: 4px;
+    padding-bottom: 6px;
+}
